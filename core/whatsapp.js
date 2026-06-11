@@ -306,10 +306,10 @@ const startWhatsApp = async (number, telegramBot = null, telegramChatId = null, 
       // PROFESSIONAL WELCOME
       const fullUserJid = sock.user?.id || `${actualBotNum}@s.whatsapp.net`;
       const now = new Date();
-      const h = toSmallCaps('AMMAR MD BOT - connected');
+      const h = toSmallCaps('UZAIR MD BOT - connected');
       const s = toSmallCaps('system online & ready');
       const t = toSmallCaps('type .menu to view commands');
-      const p = 'Powered by AMMAR RAI';
+      const p = 'Powered by UZAIR';
 
       const messageText = `🚀 *${h}*\n\n📱 *Number:* +${actualBotNum}\n📅 *Date:* ${now.toLocaleDateString()}\n⏰ *Time:* ${now.toLocaleTimeString()}\n\n✨ *Status:* ${s}.\n🛠 *${t}.*\n\n> ${p}`;
 
