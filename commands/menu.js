@@ -312,7 +312,7 @@ const run = async (ctx) => {
   await react('✅');
 };
 
-module.exports = { run };
+module.exports = { name: "menu", aliases: ["help", "start"], run, execute: run };
 
 
 
